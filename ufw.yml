@@ -1,0 +1,13 @@
+- name: "[FIREWALL] Enable + Deny all"
+  ufw:
+    state: enabled
+    policy: allow
+
+- name: "[FIREWALL] Allow SSH traffic"
+  ufw: rule=allow port=22 proto=tcp
+
+- name: "[FIREWALL] Allow HTTP traffic"
+  ufw: rule=allow port=80 proto=tcp
+
+- name: "[FIREWALL] Allow HTTPS traffic"
+  ufw: rule=allow port=443 proto=tcp

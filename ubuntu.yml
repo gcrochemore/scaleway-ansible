@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  tasks:
+   - include: apt.yml
+   - include: user.yml
+   - include: binaries.yml
+   - include: updates.yml
+   - include: ssh.yml
+   - include: ufw.yml

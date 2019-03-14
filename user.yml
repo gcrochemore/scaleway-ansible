@@ -1,0 +1,22 @@
+---
+- include_vars: vars.yml
+
+- name: "[USER] Remove the default account"
+  user:
+    name: ubuntu
+    state: absent
+    remove: yes
+
+- name: "[USER] Create the new user account"
+  user:
+    name: "{{ user.username }}"
+    comment: "{{ user.fullname }}"
+    uid: "{{ user.uid }}"
+    groups: "{{ user.groups }}"
+    append: yes
+    shell: "{{ user.shell }}"
+
+- name: "[USER] Add authorized keys"
+  authorized_key: user={{ user.username }}
+                  key="{{ item }}"
+  with_items: "{{ user.public_keys }}"

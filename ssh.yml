@@ -1,0 +1,14 @@
+- name: "[SSH] Disallow password authentication"
+  lineinfile: dest=/etc/ssh/sshd_config
+              regexp="^PasswordAuthentication"
+              line="PasswordAuthentication no"
+              state=present
+
+- name: "[SSH] Disallow root SSH access"
+  lineinfile: dest=/etc/ssh/sshd_config
+              regexp="^PermitRootLogin"
+              line="PermitRootLogin no"
+              state=present
+
+- name: "[SSH] Restart Service"
+  service: name=ssh state=restarted
