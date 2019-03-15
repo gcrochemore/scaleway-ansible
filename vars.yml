@@ -27,7 +27,6 @@ packages:
   - unattended-upgrades
   - fail2ban
   - logwatch
-  - ufw
 
 binaries:
 
