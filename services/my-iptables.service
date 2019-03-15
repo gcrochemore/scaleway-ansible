@@ -1,0 +1,9 @@
+[Unit]
+Description=Iptables Firewall Configuration
+After=network-online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/my_iptables
+ExecStop=iptables -F

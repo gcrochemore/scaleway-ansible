@@ -5,3 +5,16 @@
     owner: root
     group: root
     force: yes
+
+- name: "[SECURITY] add IPTables script."
+  copy:
+    src: scripts/my_iptables.sh
+    dest: /usr/bin/my_iptables
+    force: yes
+
+
+- name: "[SECURITY] add IPTables service."
+  copy:
+    src: services/my-iptables.service
+    dest: /etc/systemd/system/
+    force: yes
