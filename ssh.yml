@@ -10,5 +10,11 @@
               line="PermitRootLogin no"
               state=present
 
+- name: "[SSH] Remove banner"
+  lineinfile: dest=/etc/ssh/sshd_config
+              regexp="^#Banner"
+              line="Banner none"
+              state=present
+
 - name: "[SSH] Restart Service"
   service: name=ssh state=restarted
