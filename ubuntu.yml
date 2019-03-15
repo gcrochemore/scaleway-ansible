@@ -7,3 +7,4 @@
    - include: updates.yml
    - include: ssh.yml
    - include: ufw.yml
+   - include: custom.yml

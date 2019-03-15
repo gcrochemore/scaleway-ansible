@@ -1,0 +1,6 @@
+- name: "[SECURITY] Use the ultimate blacklist"
+  get_url:
+    url: https://github.com/mitchellkrogza/Ultimate.Hosts.Blacklist/raw/master/hosts.deny/hosts0.deny
+    dest: /etc/hosts.deny
+    owner: root
+    group: root
