@@ -6,4 +6,5 @@
    - include: binaries.yml
    - include: updates.yml
    - include: ssh.yml
+   - include: pip.yml
    - include: custom.yml

@@ -28,6 +28,9 @@ packages:
   - fail2ban
   - logwatch
 
+pip: 
+  - archey4
+
 binaries:
 
   docker_compose:
