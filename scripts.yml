@@ -3,3 +3,4 @@
     src: scripts/slack-it.sh
     dest: /usr/bin/slack-it
     force: yes
+    mode: 755

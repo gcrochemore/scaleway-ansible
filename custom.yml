@@ -20,11 +20,7 @@
     force: yes
 
 - name: "[CUSTOM] Remove banner"
-  shell: rm /etc/update-motd.d/*
-
-
-- name: "[CUSTOM] Remove banner"
-  shell: rm /etc/update-motd.d/*
+  shell: rm -f /etc/update-motd.d/*
 
 - name: "[CUSTOM] Remove banner 2"
   shell: apt-get remove --purge landscape-common

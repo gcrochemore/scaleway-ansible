@@ -2,7 +2,6 @@
 CHANNEL="#vincentp-dev"
 USERNAME="Slack It !"
 EMOJI="slack"
-HOOK=""
 
 usage(){ 
     echo "Usage: ./slack-it [options] message" 
@@ -40,4 +39,4 @@ done
 MSG=$*
 
 PAYLOAD="payload={\"channel\": \"$CHANNEL\", \"username\": \"$USERNAME\", \"text\": \"$MSG\", \"icon_emoji\": \"$EMOJI\"}"
-curl -X POST --data-urlencode "$PAYLOAD" "$HOOK"
+curl -X POST --data-urlencode "$PAYLOAD" "$SLACK_HOOK"
