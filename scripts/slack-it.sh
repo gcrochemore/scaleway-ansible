@@ -1,4 +1,5 @@
 #!/bin/bash
+. /etc/environment
 CHANNEL="#vincentp-dev"
 USERNAME="Slack It !"
 EMOJI="slack"
@@ -29,8 +30,8 @@ while true; do
             shift 2;;
 
         -e|--emoji) 
-            EMOJI=$2
-            shif 2;;
+            EMOJI=":$2:"
+            shift 2;;
 
         *)  # fin des options 
         break;;
