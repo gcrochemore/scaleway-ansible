@@ -1,0 +1,14 @@
+- name: "[Fail2ban] Conf jail"
+  copy:
+    src: fail2ban/jail.conf
+    dest: /etc/fail2ban/jail.local
+    force: yes
+
+- name: "[Fail2ban] Add Slack notifications"
+  copy:
+    src: fail2ban/slack-notify.conf
+    dest: /etc/fail2ban/action.d/slack-notify.conf
+    force: yes
+
+- name: "[Fail2ban] Reload Service"
+  shell: service fail2ban restart

@@ -9,3 +9,4 @@
    - include: pip.yml
    - include: custom.yml
    - include: scripts.yml
+   - include: fail2ban.yml
