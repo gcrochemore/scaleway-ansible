@@ -1,0 +1,5 @@
+- name: "[Tools] add slack-it script."
+  copy:
+    src: scripts/slack-it.sh
+    dest: /usr/bin/slack-it
+    force: yes
