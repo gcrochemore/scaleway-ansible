@@ -10,5 +10,5 @@
     dest: /etc/fail2ban/action.d/slack-notify.conf
     force: yes
 
-- name: "[Fail2ban] Reload Service"
-  shell: service fail2ban restart
+- name: "[Fail2ban] Restart Service"
+  service: name=fail2ban state=restarted
