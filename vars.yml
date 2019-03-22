@@ -12,6 +12,10 @@ user:
     - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDDdTSx/dSr1LtgdxBqLggw1W94k63BM8FVoOV/AvlHJqR9JHR8rWoC4vaCJKpuf7khEEXntUSMOmU2g7ZiGwDKoMjhEItjGh8a6m5Q6TjDbROfoHeIIzuXuo2iN4QQDgkm3EtjFCpWsnPDXaLvn130ijIrxBOBPOCn/ZaNoLsklT9UPv+3b2EVBmuAvKFOOaEkeCC64j03mgPqzo4BiUm0XX5L8PxLGOq/pAug/7lthYiME18JVY8UiiAS2POmrl3QlmEaPtFvzvF8xFDkinn2Ef+byUF/XaUNcUf4SyizJWC3k1s/lf5mhul4c3DJCm/B1hWs7PuHHv/ghXVhLtM5fXT+PQwpiOF5KGbacl+p1CquLQtXqHI24dK1UkQRROs70S+kUVNXmHW/2rwu9z/MeL8KuSXa2dR15hKz/GtPLv3crEj0fAbOjN1pBNzP2WOvUu2JiMHqdZjlNrgIn+DmiNHw6GmngfJyBJJg7x9RIp+tYE383s0ne2HrANPVC+8R+U+XaXzVfJ7/UFybnGlgSaCP01nXQJy7Jhdn66cNU8+kpGv1MiD6jpDr+yvEaw5XIbawis/MaO+uzpNlyFtLzYXc5JmKTsR532mXZiy90ECipWT38Mn2TdN8cQEyUAJaYeao0yCa4KiAslAqnQnr+/F4065uuu6AnUKSHruCVw== cardno:000605675860
     # Macbook
     - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDeHDXpPfvNFvUFACXFAnp1pPi2w19CpYVZZqCIrXlHTOzxI1lU/pC+j3z/58KsY4q6ULcWbB2DQx5G9JQjriKfJYASWfz5Lg7hyXW/wfrVbnF3eiNFL2A7QoOPOpKv31xzGn34b/SYPz5kPouGZa2uMZgHY7A3ifOCQBqBPdogdhXY9rT3I2RS+JBo7xyQPAJUiwwngKX3MXlim/4PEmcfM+3zS3uCc1+MGfxiiXGPSh9zPb3wH7/ZOG5Gam8ZKIp5IX7BJjOd6Iiy47G/T+NnpNtyizR0LAF6qEgg37ZM/iZXfFD5JZAfxEBkBXavM8sXX3GYpk0z0CL77lFlxT+p vpecquerie@macbookpro.local
+  ip_whitelist: 
+    # TRSb
+    - 176.157.131.89 
+
 
 repositories:
   docker:
@@ -27,6 +31,7 @@ packages:
   - unattended-upgrades
   - fail2ban
   - logwatch
+  - portsentry
 
 pip: 
   - archey4

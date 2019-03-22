@@ -1,0 +1,18 @@
+
+- name: "[PORTSENTRY] Allow whitelist"
+  lineinfile:
+    path: /etc/portsentry/portsentry.ignore
+    line: "{{ item }}"
+  with_items: "{{user.ip_whitelist}}"
+
+- name: "[PORTSENTRY] Configure mode"
+  copy:
+    src: ./portsentry/portsentry.default
+    dest: /etc/default/portsentry
+    force: yes
+
+- name: "[PORTSENTRY] Add configuration"
+  copy:
+    src: ./portsentry/portsentry.conf
+    dest: /etc/portsentry/portsentry.conf
+    force: yes
