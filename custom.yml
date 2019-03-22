@@ -22,5 +22,7 @@
 - name: "[CUSTOM] Remove banner"
   shell: rm -f /etc/update-motd.d/*
 
-- name: "[CUSTOM] Remove banner 2"
-  shell: apt-get remove --purge landscape-common
+- name: "[CUSTOM] Remove banner service"
+  apt:
+    name: landscape-common 
+    state: absent
