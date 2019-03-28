@@ -1,21 +1,18 @@
 user:
-  username: "vpecquerie"
-  fullname: "Vincent PECQUERIE"
+  username: "gcrochemore"
+  fullname: "Guillaume Crochemore"
   uid: 1000
   groups: sudo,docker
   shell: /bin/zsh
-  email: "contact@vincent-p.fr"
+  email: "guillaume.crochemore@gmail.com"
   public_keys:
-    # Yubikey Slave
-    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDEBWHcvXSTb9B3fE9eGBMPBgSjtoBKuQRsB0v4BGKx6LLLQiY9PU/P9PkBnau2hko9qEltBeKK6fo2Z/GMEz99JLQQJGXQT5+0PgxE/qbh58vMK9JeIvIYPr+u9iDnI7znDa5rzNWWYsDI1X1Ptsim7JAXOeI3aLSW000xcKX5sXh0EO+rYoKcZzCriIc4X4tujcNnO2Pjc3L8BN3rxnx3qIg9GGrssduPd8/FcTj4E99b56Fdul3ttmYYGJBxdqszdjnl7aWUJP9qtv6bu5Dy3NUPQu04xSLcts9nOzAKaqdu1RBc6bE/lz4jbxI+DWdIswFS2DEcm05I03dI9Pwd+xZ4GxD9oYu9GCPPlYS0UpfhLf/066XL1h/D/qMsg++fnDungtAoP2X8S+tYZg0Zav9jBV8OPSZgKWx1oLR2VZBht2daxQNVyGMnu+6zLHpFfkU2ZDCwkEJwDI1UOFi0zEy3Q3OEXT1aPgr/rIX084PNb0h7lBJSlnKN/oW2PCIdwhn8KivEbtPjlvta8pay0NQ136JEjcH1JihX0ADmoTA8/1v7jpPut0SEQZAbpp990EzXAOLly/xU3pFGNEKvc77CbQMXPwDr+qUxdwppO7iianyGt26qRVyoR/QzqHpoeZrKqnNehAr8xOmlqWn5K2Fo/lH9OVkQmJ9J0QXy4w== cardno:000605675867
-    # Yubikey Master
-    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDDdTSx/dSr1LtgdxBqLggw1W94k63BM8FVoOV/AvlHJqR9JHR8rWoC4vaCJKpuf7khEEXntUSMOmU2g7ZiGwDKoMjhEItjGh8a6m5Q6TjDbROfoHeIIzuXuo2iN4QQDgkm3EtjFCpWsnPDXaLvn130ijIrxBOBPOCn/ZaNoLsklT9UPv+3b2EVBmuAvKFOOaEkeCC64j03mgPqzo4BiUm0XX5L8PxLGOq/pAug/7lthYiME18JVY8UiiAS2POmrl3QlmEaPtFvzvF8xFDkinn2Ef+byUF/XaUNcUf4SyizJWC3k1s/lf5mhul4c3DJCm/B1hWs7PuHHv/ghXVhLtM5fXT+PQwpiOF5KGbacl+p1CquLQtXqHI24dK1UkQRROs70S+kUVNXmHW/2rwu9z/MeL8KuSXa2dR15hKz/GtPLv3crEj0fAbOjN1pBNzP2WOvUu2JiMHqdZjlNrgIn+DmiNHw6GmngfJyBJJg7x9RIp+tYE383s0ne2HrANPVC+8R+U+XaXzVfJ7/UFybnGlgSaCP01nXQJy7Jhdn66cNU8+kpGv1MiD6jpDr+yvEaw5XIbawis/MaO+uzpNlyFtLzYXc5JmKTsR532mXZiy90ECipWT38Mn2TdN8cQEyUAJaYeao0yCa4KiAslAqnQnr+/F4065uuu6AnUKSHruCVw== cardno:000605675860
-    # Macbook
-    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDeHDXpPfvNFvUFACXFAnp1pPi2w19CpYVZZqCIrXlHTOzxI1lU/pC+j3z/58KsY4q6ULcWbB2DQx5G9JQjriKfJYASWfz5Lg7hyXW/wfrVbnF3eiNFL2A7QoOPOpKv31xzGn34b/SYPz5kPouGZa2uMZgHY7A3ifOCQBqBPdogdhXY9rT3I2RS+JBo7xyQPAJUiwwngKX3MXlim/4PEmcfM+3zS3uCc1+MGfxiiXGPSh9zPb3wH7/ZOG5Gam8ZKIp5IX7BJjOd6Iiy47G/T+NnpNtyizR0LAF6qEgg37ZM/iZXfFD5JZAfxEBkBXavM8sXX3GYpk0z0CL77lFlxT+p vpecquerie@macbookpro.local
-  ip_whitelist: 
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHowZ2IhWB3HLejSCDnn+tpndUp1U9QXF+X0j9RKiB+D+BFLcUY83isBd8Uy7SBpU7yEVixW8imSN9Xs9nnYUaPKl7uEMQTp2ePRdBWNCBY3/1h063yAlXMT2kziQAeZRRwLaAxWvJqSkZegrSYa8gMc0h3TIPRXJJO+8+a7bf7uIsXRIU2ZQeGWUEgQQ178ZPMQtrgiPSeu42OhedghSCBGxNsENJShCnDKSPuvyj4h+r040IY8k0QXPjiJEVYmbLqxC9Rwius8MBUpGW9jLpH01D5YDro44bZ7+sfH9cCw9VqeJ8Kci8yuFciKifOEJcHoaX/IKojgPj6Gtismo5 gcrochemore <guillaume.crochemore@trsb.net>
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQDU0AWFip8XgFzTbxouZfbuvM0SBr1N5l8AaXod+zFH27o29OkFfyxa7ofJYi/QSJ1yUa3Nj7cq8ME80nuWsv8wNVcfzCgZxSsn7aKg8SnL9JV0tnge8lcak56rJ1ZB0iMIvPCLOJ6PwESXoTbZcr2+6XJfMVT6CozLnPGNYOt6iQ==
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC9t5P1gBEbZ8/HO6gcjey7EIe4k6adWre/FIg1uHzpBqMD/2nOhXdY3xZ5F5Z5mcDgH2PTVROFtPeeazPI0kAaBKvLeTDwAKczOqVBBFZemsHPiJq33j+URxUQO/P5LDCJ3XWkmUnmwG0NS7o8hN/U3H9QVOyMkqSW1zip4c15jWaKGS9YZ7O7UmTVVNX8sa8In9/ROAYlAiwHzXjy60/amAvIkd9XE/FcvM/FLPkDbDzXcZX7eLhH+JPaN3VCqRG+kvMeu0OJ7/NReMj4xP9VYlDala90u4NJVGX3sDmpD1MSZaIjfAMQ+tqrZBXsHQkd+8sDXe51n3VirrxQ1NhH7VP2FUmeRYAi/aOiZNUO4HzgYavUovyoaK9i4G1CAvT0RrsusAhQkK5NeGaWryHuJF9fHIhZl350yqC2wDd9XZoSoKwB0PpOG8tD9hnE7Vsb8Gy5+w8NYa1aBJI3DHkhyw+omdeEfWnHKWjgWZ9HWqFE5u8WFnFUyd3OBWiXmTbLIMgpnqq/6ZcKOZshwofvIlnS/Q8xICZRhySrenh4x8TPlxYsfI6Mo8QL5EApXcDJT7Ny3/okYycitvLooIyCLj7sbd/dVddMVRc7UacTWfgYxEOcGIuJcCSPoMb8hsQd4pv0yD8l0szfCT8aIGH5BalPPCrdPY8rXpqa1sw+SQ== guillaume.crochemore@chabe-limousines.com
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDt50QGyLVnqrjpl1mJUIsdt+5NB15vZM1PRQQ68FqqvMBmUwJuezCUmFOhdQcFcl8E7DKmnrXGSbG9pIzQ/ccCLiMVa8VYTtU/PzcTDon+tj+4CdZ8nxjRORGQzcCSn3iHpKHv9b1SOC2mLopjDMG4JlCr1Z3kj/Xl7IuqpMwaI+RPx3dDzUHB8Okg/DMxJZxvo8UT++VhTSpslzYFNKG5KvaAAhdSSUzkb9BXROxNJgtcjZOWowCy1NsABKXMBnBefwWl9WoCNri4ASXkXv/sUj3pDsBf8h/MrKh/rbcOlYstApFW88gHxW9B5B9nBOzxMf2He1mLfuXo/85gb6aF guigui@PC_GUIGUI
+  ip_whitelist:
     # TRSb
-    - 176.157.131.89 
-
+    - 176.157.131.89
 
 repositories:
   docker:
@@ -33,7 +30,7 @@ packages:
   - logwatch
   - portsentry
 
-pip: 
+pip:
   - archey4
 
 binaries:
